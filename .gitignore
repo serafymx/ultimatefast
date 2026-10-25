@@ -1,0 +1,30 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Packaging / build artifacts
+*.egg-info/
+build/
+dist/
+.eggs/
+*.egg
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*

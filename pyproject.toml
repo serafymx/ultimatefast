@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ultimatefast"
+version = "0.1.0"
+requires-python = ">=3.12"
+
+[project.optional-dependencies]
+dev = ["mypy", "pyright"]
+
+[tool.setuptools]
+py-modules = ["type_hints"]
+
+[tool.pyright]
+include = ["type_hints.py"]
+pythonVersion = "3.12"
+typeCheckingMode = "basic"
